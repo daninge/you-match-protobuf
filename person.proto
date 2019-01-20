@@ -1,4 +1,6 @@
 syntax = "proto3";
+option java_outer_classname = "PersonProto";
+option java_package = "Proto";
 
 message Person {
     string id = 1;
